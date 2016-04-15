@@ -1,0 +1,126 @@
+* {
+    margin:0;
+    padding:0;
+}
+ul {
+	list-style:none;
+}
+.clear {
+    clear:both;
+}
+
+body {
+    background: grey;
+}
+   
+.main-container {
+    width:800px;
+    margin:0 auto;
+}
+
+.logo {
+	float:left;
+}
+.page-title {
+    float: left;
+    margin-left: 15px;
+    margin-top: 30px;
+}
+
+header, footer, div.content {
+    background:#fff;
+    border-radius:10px;
+    -moz-border-radius:10px;
+    -webkit-border-radius:10px;
+    -o-border-radius:10px;
+    -ms-border-radius:10px;
+}
+
+div.content {
+    padding: 10px;
+}
+.section { 
+	padding: 15px;
+	list-style-type: disc;
+}
+
+footer {
+    text-align:center;
+}
+.pad {
+	padding-left: 35px;
+}
+.content2 {
+	float: right;
+    width: 250px;
+    background: grey;
+    padding: 10px;
+    border-radius: 10px;
+}
+/* Calculator */
+.calc {
+	margin-left: 275px;
+    border: transparent;
+	margin: auto;
+}
+.but {
+	width: 50px;
+    margin: 1px;
+	padding: 3px;
+}
+.null {
+	position: relative;
+    width: 108px;
+    height: 25px;
+}
+.ravno {
+	position: relative;
+    width: 50px;
+    height: 59px;
+}
+.text {
+	width: 270px;
+}
+/* navigation */ 
+.navigation {
+	margin: 0 auto; 
+	width: 440px;
+	}
+nav ul > li {
+	width:auto; 
+	margin:5px 15px; 
+	float:left;
+	}
+
+nav ul > li.parent-menu {
+    position:relative;
+    display:inline;
+}
+nav ul > li.parent-menu a {
+    display:block;
+}
+nav ul > li.parent-menu > ul.child-menu {
+    position:absolute;
+    left:-9999px;
+}
+
+nav ul > li.parent-menu:hover > ul.child-menu {
+    left:0; 
+    display:block;
+    background:#fff;
+    border:1px solid #ccc;
+    border-radius:6px;
+}
+
+nav ul > li.parent-menu:hover > ul.child-menu > li {    
+    width: 100%;
+    margin: 0;
+    padding: 5px 10px;
+    box-sizing: border-box
+}
+nav ul > li.parent-menu:hover > ul.child-menu > li > a {
+    display:block;
+}
+nav ul > li.parent-menu:hover > ul.child-menu > li > a:hover{
+    background:#ccc; color:#fff;
+}

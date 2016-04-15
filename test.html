@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Заголовок документа</title>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+        <link rel="stylesheet" href="style.css" />
+	</head>
+    <body> 
+                <div id="main-container" class="main-container">
+            <header>
+            <div class="logo">
+                <img src="webLogo.png" alt="Изображение" height="100" /><br />
+            </div>  
+            <div class="page-title">
+                <h1>Основы Web-технологий</h1>
+            </div>
+            <div class="clear"></div>
+                <nav class="navigation">
+                    <ul>
+                        <li><a href="index.html">Главная</a></li>
+                        <li class="parent-menu"><a href="web.html">Web-технологии</a>
+                                <ul class="child-menu">
+                                    <li><a href="HTML5.html">HTML</a></li>
+                                    <li><a href="CSS.html">СSS</a></li>
+                                    <li><a href="JS.html">JavaScript</a></li>
+                                </ul>
+                                </li>
+                        <li><a href="calculator.html">Калькулятор</a></li>
+                        <li><a href="test.html">Тест</a></li>
+                    </ul> 
+			<div class="clear"></div>                    
+                </nav>
+            </header>
+			<div class="content">	
+				<form>
+					<p>Какой тег предназначен для создания ссылок:</p>
+					<input type="radio" name="teg" value="a" />&#60;a&#62;<br />
+					<input type="radio" name="teg" value="a" />&#60;a&#8194;&#8260;&#62;<br />
+					<input type="radio" name="teg" value="ref" />&#60;ref&#62;<br />
+					<input type="radio" name="teg" value="ref" />&#60;ref&#8194;&#8260;&#62;<br />
+					<p>Какой тег предназначен для создания нумерованного списка:</p>
+					<input type="radio" name="teg" value="li" />&#60;li&#62;<br />
+					<input type="radio" name="teg" value="dl" />&#60;dl&#62;<br />
+					<input type="radio" name="teg" value="ol" />&#60;ol&#62;<br />
+					<input type="radio" name="teg" value="ul" />&#60;ul&#62;<br />
+					<p>Какой тег предназначен для передачи служебной информации браузеру:</p>
+					<input type="radio" name="teg" value="info" />&#60;info&#62;<br />
+					<input type="radio" name="teg" value="info" />&#60;info&#8194;&#8260;&#62;<br />
+					<input type="radio" name="teg" value="meta" />&#60;meta&#62;<br />
+					<input type="radio" name="teg" value="meta" />&#60;meta&#8194;&#8260;&#62;<br />
+					<p>Какие теги используются при создании таблицы:</p>
+					<input type="checkbox" name="teg" value="body" />&#60;bodyt&#62;<br />
+					<input type="checkbox" name="teg" value="td" />&#60;td&#62;<br />
+					<input type="checkbox" name="teg" value="groupcol" />&#60;groupcol&#62;<br />
+					<input type="checkbox" name="teg" value="col" />&#60;col&#8194;&#8260;&#62;<br />
+					<p>Какие атрибуты используются при создании форм:</p>
+					<input type="checkbox" name="atribut"/>autocomplete<br />
+					<input type="checkbox" name="atribut"/>action<br />
+					<input type="checkbox" name="atribut"/>charset<br />
+					<input type="checkbox" name="atribut"/>validate<br />
+					<br /><input type="button" name="button" value="Результат" />
+				</form>
+			</div>
+        <footer>
+            <address>
+                <a href="mailto:mail@mail">Пишите: mail@mail</a>
+            </address>
+				&#169;Фамилия И.О..год
+        </footer>
+    </body>
+</html>
